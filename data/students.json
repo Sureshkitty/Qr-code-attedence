@@ -1,0 +1,312 @@
+{
+  "students": [
+    {
+      "usn": "SG23CSD001",
+      "name": "ADITYA",
+      "father_name": "SHIVAKUMAR"
+    },
+    {
+      "usn": "SG23CSD002",
+      "name": "AJEET",
+      "father_name": "IRANNA SHOPPER"
+    },
+    {
+      "usn": "SG23CSD003",
+      "name": "AMBRESH",
+      "father_name": "SHIVARAM"
+    },
+    {
+      "usn": "SG23CSD004",
+      "name": "AMIT KUMAR",
+      "father_name": "SHIVAGUNDAPPA"
+    },
+    {
+      "usn": "SG23CSD005",
+      "name": "ARPIT",
+      "father_name": "GOPAL"
+    },
+    {
+      "usn": "SG23CSD006",
+      "name": "ASHWINI",
+      "father_name": "BASAVANTRAYA"
+    },
+    {
+      "usn": "SG23CSD007",
+      "name": "BHAGYASHREE",
+      "father_name": "ANNARAO"
+    },
+    {
+      "usn": "SG23CSD008",
+      "name": "BHAVANI",
+      "father_name": "GURUBASAYA"
+    },
+    {
+      "usn": "SG23CSD009",
+      "name": "BHAVANI PATIL",
+      "father_name": "SHARANABASAPPA"
+    },
+    {
+      "usn": "SG23CSD010",
+      "name": "BHIMANNAGOUDA A BIRADAR",
+      "father_name": "AMRUTH BIRADAR"
+    },
+    {
+      "usn": "SG23CSD011",
+      "name": "CHETANA",
+      "father_name": "YESHWANTHRAO PATIL"
+    },
+    {
+      "usn": "SG23CSD012",
+      "name": "GIRISH",
+      "father_name": "GOPALKRISHNA S PRABHU"
+    },
+    {
+      "usn": "SG23CSD013",
+      "name": "GURUMURTHY",
+      "father_name": "SOMSHEKHAR"
+    },
+    {
+      "usn": "SG23CSD014",
+      "name": "GURURAJ MASALI",
+      "father_name": "MAHANTESH MASALI"
+    },
+    {
+      "usn": "SG23CSD015",
+      "name": "HARSHITA KATTI",
+      "father_name": "KATTI DAY"
+    },
+    {
+      "usn": "SG23CSD016",
+      "name": "KEDARNATH",
+      "father_name": "RAJENDRA MULAGE"
+    },
+    {
+      "usn": "SG23CSD017",
+      "name": "KOMAL N MENGJI",
+      "father_name": "NARASING C MENGJI"
+    },
+    {
+      "usn": "SG23CSD018",
+      "name": "KUNAL S",
+      "father_name": "BLEED"
+    },
+    {
+      "usn": "SG23CSD019",
+      "name": "MAHANTESH",
+      "father_name": "GIREPPA SIBARBANDI"
+    },
+    {
+      "usn": "SG23CSD020",
+      "name": "MALLIKARJUN",
+      "father_name": "VIRUPAKSHAPPA"
+    },
+    {
+      "usn": "SG23CSD021",
+      "name": "MANASVI S KOANGUTTI",
+      "father_name": "SHANTKUMAR"
+    },
+    {
+      "usn": "SG23CSD022",
+      "name": "MD TOUFIQ PATEL",
+      "father_name": "KHASIM PATEL"
+    },
+    {
+      "usn": "SG23CSD023",
+      "name": "MD UNED IMRAN",
+      "father_name": "ABDUL AZIZ SAB"
+    },
+    {
+      "usn": "SG23CSD024",
+      "name": "POOJA",
+      "father_name": "CHANDRAKANTH"
+    },
+    {
+      "usn": "SG23CSD025",
+      "name": "POOJA",
+      "father_name": "PRAMOD KUMAR HIBARE"
+    },
+    {
+      "usn": "SG23CSD026",
+      "name": "POOJA",
+      "father_name": "SIDRAMAPPA YANAGUNTI"
+    },
+    {
+      "usn": "SG23CSD027",
+      "name": "PRAKASH",
+      "father_name": "ANNAPPA"
+    },
+    {
+      "usn": "SG23CSD028",
+      "name": "RAGHAVENDRA",
+      "father_name": "ANANDKUMAR SHAHAPURKAR"
+    },
+    {
+      "usn": "SG23CSD029",
+      "name": "RAJESH",
+      "father_name": "BASAVARAJ"
+    },
+    {
+      "usn": "SG23CSD030",
+      "name": "RAMLING REDDY",
+      "father_name": "LAXMIKANTH REDDY"
+    },
+    {
+      "usn": "SG23CSD031",
+      "name": "ROHIT",
+      "father_name": "RAMESH GUTTEDAR"
+    },
+    {
+      "usn": "SG23CSD032",
+      "name": "SAHANA",
+      "father_name": "SHAM RAO GOWD"
+    },
+    {
+      "usn": "SG23CSD033",
+      "name": "SANGAMESH",
+      "father_name": "PRAKASH MAROOR"
+    },
+    {
+      "usn": "SG23CSD034",
+      "name": "SANGANGOUDA B PATIL",
+      "father_name": "BABUGOUDA PATIL"
+    },
+    {
+      "usn": "SG23CSD035",
+      "name": "SANJANA",
+      "father_name": "MALLAPPA"
+    },
+    {
+      "usn": "SG23CSD036",
+      "name": "SAYYAD ZAIDPASHA",
+      "father_name": "SAYYAD CHANDPASHA"
+    },
+    {
+      "usn": "SG23CSD037",
+      "name": "SHARANPRAKASH PATIL",
+      "father_name": "MALLINATH PATIL"
+    },
+    {
+      "usn": "SG23CSD038",
+      "name": "SHARANU",
+      "father_name": "SHREEMANTA"
+    },
+    {
+      "usn": "SG23CSD039",
+      "name": "SHILPA SIDDAPPA KUDAVAKKALAGI",
+      "father_name": "SIDDAPPA KALLAPPA KUDAVAKKA"
+    },
+    {
+      "usn": "SG23CSD040",
+      "name": "SHIVANGOUDA",
+      "father_name": "Mallikarjun maliipatil"
+    },
+    {
+      "usn": "SG23CSD041",
+      "name": "SHIVANNAGOWDA",
+      "father_name": "GOUDAPPA GOUDA POLICE PATIL"
+    },
+    {
+      "usn": "SG23CSD042",
+      "name": "SHRADHA PATIL",
+      "father_name": "RAVINDRA PATIL"
+    },
+    {
+      "usn": "SG23CSD043",
+      "name": "SIDDESHWAR",
+      "father_name": "BASAYYA"
+    },
+    {
+      "usn": "SG23CSD044",
+      "name": "SNEHA",
+      "father_name": "SOMASHEKAR"
+    },
+    {
+      "usn": "SG23CSD045",
+      "name": "SOHAN KALASKAR",
+      "father_name": "ARUN KALASKAR"
+    },
+    {
+      "usn": "SG23CSD046",
+      "name": "SONAJIRAO",
+      "father_name": "SHRAVANKUMAR"
+    },
+    {
+      "usn": "SG23CSD047",
+      "name": "SUHASINI",
+      "father_name": "HANAMANT"
+    },
+    {
+      "usn": "SG23CSD048",
+      "name": "SUMEETKUMAR JANGIR",
+      "father_name": "MAHENDRAKUMAR JANGIR"
+    },
+    {
+      "usn": "SG23CSD049",
+      "name": "SUPRIYA G HIREMATH",
+      "father_name": "GURULINGAYYA SWAMY HIREMAT"
+    },
+    {
+      "usn": "SG23CSD050",
+      "name": "SURAJ PATIL",
+      "father_name": "SHANKARGOUDA MALIPATIL"
+    },
+    {
+      "usn": "SG23CSD051",
+      "name": "SWAYAM S PURANIK",
+      "father_name": "SANGAYYA S PURANIK"
+    },
+    {
+      "usn": "SG23CSD052",
+      "name": "VAIBHAV",
+      "father_name": "DAYANAND G HANJAGIMATH"
+    },
+    {
+      "usn": "SG23CSD053",
+      "name": "VAIBHAV S DHATTI",
+      "father_name": "SHIVKUMAR"
+    },
+    {
+      "usn": "SG23CSD054",
+      "name": "VAIBHAVI S DODDAMANI",
+      "father_name": "SURYAKANTS D"
+    },
+    {
+      "usn": "SG23CSD055",
+      "name": "VEDIKA CHOWDHARY",
+      "father_name": "PRAKASH CHOWDHARY"
+    },
+    {
+      "usn": "SG23CSD056",
+      "name": "VEERESH",
+      "father_name": "SHARANABASAPPA"
+    },
+    {
+      "usn": "SG23CSD057",
+      "name": "VISHWA S KARIKAL",
+      "father_name": "SHIVARUDRAPPAT KARIKAL"
+    },
+    {
+      "usn": "SG23CSD058",
+      "name": "YAZDAN MUSHRAF BAIG",
+      "father_name": "CHAND BAIG"
+    },
+    {
+      "usn": "SG23CSD059",
+      "name": "YOGESH",
+      "father_name": "SHIVARAJ SAGUMALE"
+    },
+    {
+      "usn": "SG23CSD060",
+      "name": "ZYED AZAM",
+      "father_name": "MUKARAM MOIUDDIN"
+    }
+  ],
+  "metadata": {
+    "total_students": 60,
+    "batch": "SG23CSD",
+    "department": "Computer Science and Design",
+    "college": "Sharnbasaveshwar College of Engineering, Gulbarga",
+    "year": 2023,
+    "semester": 4
+  }
+}
