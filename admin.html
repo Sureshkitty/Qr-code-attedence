@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin - Student Management</title>
+<link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+<header>Admin Panel - Manage Students</header>
+<div class="container">
+  <form id="student-form">
+    <label for="usn">USN:</label>
+    <input type="text" id="usn" required />
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" required />
+
+    <label for="fatherName">Father's Name:</label>
+    <input type="text" id="fatherName" required />
+
+    <button type="submit">Add Student</button>
+  </form>
+
+  <h2>Student List</h2>
+  <table id="student-table" border="1" cellspacing="0" cellpadding="8" style="width:100%; margin-top:10px;">
+    <thead>
+      <tr><th>USN</th><th>Name</th><th>Father's Name</th><th>QR Data</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+  const form = document.getElementById('student-form');
+  const tbody = document.querySelector('#student-table tbody');
+
+  function renderStudents() {
+    let students = JSON.parse(localStorage.getItem('students')) || {};
+    tbody.innerHTML = '';
+    for (let usn in students) {
+      let s = students[usn];
+      let tr = document.createElement('tr');
+
+      let qrData = JSON.stringify({
+        usn: usn,
+        name: s.name,
+        fatherName: s.fatherName
+      });
+
+      tr.innerHTML = `
+        <td>${usn}</td>
+        <td>${s.name}</td>
+        <td>${s.fatherName}</td>
+        <td><textarea readonly style="width:100%;height:60px;">${qrData}</textarea></td>
+      `;
+      tbody.appendChild(tr);
+    }
+  }
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const usn = document.getElementById('usn').value.trim();
+    const name = document.getElementById('name').value.trim();
+    const fatherName = document.getElementById('fatherName').value.trim();
+
+    if(!usn || !name || !fatherName) return alert('Please fill all fields');
+
+    let students = JSON.parse(localStorage.getItem('students')) || {};
+    if (students[usn]) {
+      alert('Student with this USN already exists.');
+      return;
+    }
+    students[usn] = { name, fatherName };
+    localStorage.setItem('students', JSON.stringify(students));
+    form.reset();
+    renderStudents();
+  });
+
+  renderStudents();
+</script>
+</body>
+</html>

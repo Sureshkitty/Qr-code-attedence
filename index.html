@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Code Attendance System</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="assets/logo.png" alt="App Logo" class="logo" />
+      <h1><i class="fas fa-qrcode"></i> QR Code Attendance System</h1>
+      <h2><i class="fas fa-info-circle"></i> Please select your class and subject to continue</h2>
+    </header>
+
+    <section id="instructions">
+      <ul>
+        <li>Select your class from the dropdown.</li>
+        <li>Select the subject you're attending.</li>
+        <li>If it's not listed, choose "Others" and type it manually.</li>
+        <li>Click <strong>Next</strong> to proceed to QR attendance.</li>
+      </ul>
+    </section>
+
+    <main>
+      <div id="scanner-section">
+        <h3><i class="fas fa-chalkboard-teacher"></i> Class & Subject Selection</h3>
+
+        <select id="class-select">
+          <option value="" disabled selected>Select Class</option>
+          <option value="Class 1">Class 1</option>
+          <option value="Class 2">Class 2</option>
+          <option value="Class 3">Class 3</option>
+          <option value="Class 4">Class 4</option>
+          <option value="Class 5">Class 5</option>
+          <option value="Class 6">Class 6</option>
+        </select>
+
+        <select id="subject-select">
+          <option value="" disabled selected>Select Subject</option>
+          <option value="Mathematics for CSS - IV">Mathematics for CSS - IV</option>
+          <option value="Analysis and Design of Algorithms">Analysis and Design of Algorithms</option>
+          <option value="Data Base Management System">Data Base Management System</option>
+          <option value="Python Application Programming">Python Application Programming</option>
+          <option value="Automata Theory and Computability">Automata Theory and Computability</option>
+          <option value="Algorithm Lab">Algorithm Lab</option>
+          <option value="Database Management Lab">Database Management Lab</option>
+          <option value="Python Lab">Python Lab</option>
+          <option value="Project-IV">Project-IV</option>
+          <option value="Universal Human Values">Universal Human Values</option>
+          <option value="Scripting Languages">Scripting Languages</option>
+          <option value="Others">Others</option>
+        </select>
+
+        <div id="other-subject-container">
+          <label for="other-subject">Enter Custom Subject:</label>
+          <input type="text" id="other-subject" placeholder="Type subject here..." />
+        </div>
+
+        <button id="next-button"><i class="fas fa-arrow-right"></i> Next</button>
+
+        <div class="fancy-clock" id="clock"></div>
+
+        <div id="error-message" class="error-message"></div>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2025 QR Code Attendance System | Designed by Bhagyashree Patil
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    const clock = document.getElementById("clock");
+    function updateClock() {
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString();
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
+</body>
+</html>

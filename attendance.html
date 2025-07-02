@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QR Code Attendance System</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/attedence.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/logo.png" alt="College Logo" class="logo" />
+      <h1><i class="fa-solid fa-building-columns"></i> Sharnbasaveshwar College of Engineering</h1>
+      <h2><i class="fa-solid fa-laptop-code"></i> Computer Science and Design - Attendance</h2>
+
+
+      <div class="fancy-clock">
+        <i class="fa-solid fa-clock"></i> <span id="datetime">Loading time...</span>
+      </div>
+    </header>
+
+    <main class="main-layout">
+      <section id="scanner-section">
+        <h3><i class="fa-solid fa-qrcode"></i> QR Code Scanner</h3>
+        <div id="reader"></div>
+        <div id="status" class="status">
+          <i class="fa-solid fa-info-circle"></i> Please scan the student’s QR code to mark attendance.
+        </div>
+        <div id="session-info" class="info-banner">
+          <strong><i class="fa-solid fa-chalkboard-user"></i> Class:</strong> <span id="class-info">Loading...</span> |
+          <strong><i class="fa-solid fa-book"></i> Subject:</strong> <span id="subject-info">Loading...</span>
+        </div>
+      </section>
+
+      <section id="chart-section">
+        <h3><i class="fa-solid fa-chart-pie"></i> Attendance Summary</h3>
+        <canvas id="attendanceChart" width="300" height="300"></canvas>
+      </section>
+    </main>
+
+    <section id="attendance-section">
+      <div class="attendance-header">
+        <h3>
+          <i class="fa-solid fa-list-check"></i> Attendance
+          (<span id="present-count">0</span> Present / <span id="absent-count">0</span> Absent)
+        </h3>
+        <div class="action-buttons">
+          <button id="reset-btn"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+          <button id="download-btn"><i class="fa-solid fa-file-arrow-down"></i> Download CSV</button>
+            <button id="manual-entry-btn">✍️ Enter USN Manually</button>
+            <button id="lost-qr-btn">
+  <i class="fas fa-question-circle"></i> Lost QR Code
+</button>
+<div id="lost-qr-display" style="margin-top:10px;"></div>
+        </div>
+      </div>
+      <div class="attendance-columns">
+        <div class="attendance-column">
+          <h4 class="attendance-title">✅ Present</h4>
+          <ul id="attendance-list"></ul>
+        </div>
+        <div class="attendance-column">
+          <h4 class="attendance-title">❌ Absent</h4>
+          <ul id="absent-list"></ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="overlay" class="overlay hidden"></div>
+
+  <script src="lib/html5-qrcode.min.js"></script>
+  <script src="js/Attedence.js"></script>
+  <script>
+  
+  </script>
+</body>
+</html>
